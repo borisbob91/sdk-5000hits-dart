@@ -21,7 +21,7 @@ class MusicSdk {
   late final UserService users;
   late final LyricService lyrics;
 
-  static late final MusicSdk _instance = MusicSdk._internal();
+  static final MusicSdk _instance = MusicSdk._internal();
   late final String _apiKey;
 
   factory MusicSdk() {

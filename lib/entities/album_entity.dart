@@ -3,9 +3,6 @@
 //     final albumEntity = albumEntityFromJson(jsonString);
 
 import 'dart:convert';
-
-import 'package:isar/isar.dart';
-
 import 'cover_entity.dart';
 
 class AlbumEntity {
@@ -154,4 +151,5 @@ class AlbumEntity {
   String toString(){
     return "Album(slug: $slug, name:$name)\n";
   }
+
 }
