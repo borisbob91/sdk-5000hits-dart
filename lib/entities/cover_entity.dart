@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:isar/isar.dart';
-part 'cover_entity.g.dart';
 
 @embedded
 class Cover {

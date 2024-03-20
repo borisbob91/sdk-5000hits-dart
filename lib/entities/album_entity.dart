@@ -8,11 +8,8 @@ import 'package:isar/isar.dart';
 
 import 'cover_entity.dart';
 
-part 'album_entity.g.dart';
-
-@Collection()
 class AlbumEntity {
-  Id id = Isar.autoIncrement;
+  int? id;
   String? slug;
   String? artist;
   String? name;
